@@ -1,0 +1,80 @@
+form {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 2vh;
+  width: 80vw;
+  padding: 1rem;
+
+  border-radius: 10px;
+  background: #e0e0e0;
+}
+
+.form-group {
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+
+button {
+  background: #26547C;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+
+.buttons-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.rdb-container{
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.container-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.my-table {
+  background-color: #f5f5f5;
+  width: 100%;
+  margin: 0 auto; /* Asegura que la tabla esté centrada */
+}
+
+
+.composicionAtmosferica{
+  min-width: 15vw;
+  min-height: 5vh;
+}
+
+
+tr {
+  border-bottom: 1px solid #000000; /* Borde inferior gris */
+}
+
+td, th {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center; /* Centrado horizontal */
+  vertical-align: middle; /* Centrado vertical */
+}
+
+
+
+
+
