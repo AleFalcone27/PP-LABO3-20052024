@@ -8,7 +8,5 @@ class Planeta extends PlanetaBase{
       this.composicionAtmosferica = composicionAtmosferica;
     }
 
-
-
 }
 export { Planeta };

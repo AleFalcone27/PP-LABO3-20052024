@@ -1,2 +1,1 @@
-# PP-LABO3-20052024
-Repo Parcial Labo III
+# Simulacro Laboratorio de Programacion III
