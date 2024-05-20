@@ -1,4 +1,4 @@
-## Primer Parcial III 🌎
+## Primer Parcial Labo III 🌎
 
 ### Funcionalidades:
 
