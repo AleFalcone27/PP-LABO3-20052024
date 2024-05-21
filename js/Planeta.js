@@ -10,3 +10,5 @@ class Planeta extends PlanetaBase{
 
 }
 export { Planeta };
+
+
