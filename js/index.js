@@ -26,6 +26,7 @@ function manejadorEliminarTodo() {
     try {
       escribirStorage("Planetas", objectToJson(items)); // Actualiza el almacenamiento
       manejadorTabla();
+      actualizarFormulario()
     } catch (error) {
       console.error("Error al eliminar todos los planetas:", error);
     }
@@ -47,6 +48,7 @@ function manejadorEliminarRegistro() {
       items.length = 0;
       itemsActualizado.forEach(item => items.push(item));
       manejadorTabla();
+      actualizarFormulario()
     } catch (error) {
       console.error("Error al eliminar el planeta:", error);
     }
