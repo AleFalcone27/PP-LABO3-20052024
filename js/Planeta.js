@@ -1,4 +1,4 @@
-import { PlanetaBase,  } from "./planetaBase.js";
+import { PlanetaBase,  } from "./planetabase.js";
 class Planeta extends PlanetaBase{
     constructor(nombre,tamaño,masa,tipo,distanciaAlSol,presentaVida,presentaAnillos,composicionAtmosferica) {
       super(nombre,tamaño,masa,tipo)
@@ -10,5 +10,7 @@ class Planeta extends PlanetaBase{
 
 }
 export { Planeta };
+
+
 
 
